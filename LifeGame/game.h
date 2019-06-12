@@ -11,6 +11,7 @@ public:
 	void home();
 	void print();
 	void update();
+	void clearScreen();
 private:
 	bool saveConfigs(const std::string& path);
 	bool readConfigFile(const std::string& path);

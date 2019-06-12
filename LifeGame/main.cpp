@@ -10,7 +10,7 @@ void main()
 	game.init();
 	game.home();
 	game.print();
-	system("cls");
+	
 	while (true)
 	{
 		game.update();

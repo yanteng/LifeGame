@@ -93,7 +93,6 @@ const vector<vector<bool>>& Lifes::getLifes()
 
 void Lifes::nextLifes()
 {
-	//std::cout << "++\n";
 	int height = this->lifes.size();
 	int width = this->lifes[0].size();
 	vector<vector<bool>> nextLifes(height, vector<bool>(width));
@@ -106,7 +105,6 @@ void Lifes::nextLifes()
 		}
 	}
 	this->lifes = nextLifes;
-	//cout << "--\n";
 }
 
 void Lifes::setUpperLifeLimit(int upper)
